@@ -126,13 +126,8 @@ CUDA_VISIBLE_DEVICES=1 python autommlab/main.py
 ```
 
 ## 📺 Demo
-[demo](https://github.com/yang-ze-kang/AutoMMLab/blob/main/docs/demo.mp4)
-<video controls width="600">
-  <source src="demo.mp4" type="video/mp4">
-</video>
 
-
-https://github.com/user-attachments/assets/c62bcee7-6e49-4323-9eab-eb514cede1d9
+[Official Demo Video](https://github.com/user-attachments/assets/c62bcee7-6e49-4323-9eab-eb514cede1d9)
 
 
 
