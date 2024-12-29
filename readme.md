@@ -132,6 +132,10 @@ CUDA_VISIBLE_DEVICES=1 python autommlab/main.py
 </video>
 
 
+https://github.com/user-attachments/assets/c62bcee7-6e49-4323-9eab-eb514cede1d9
+
+
+
 ## 🤝 Acknowledgments
 
 - [MMEngine](https://github.com/open-mmlab/mmengine): OpenMMLab foundational library for training deep learning models.
