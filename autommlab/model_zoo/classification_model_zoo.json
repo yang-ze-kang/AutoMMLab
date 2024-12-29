@@ -1,0 +1,257 @@
+{
+    "keys":["Model","Params(M)","Flops(G)","Inf time (fps)","Accuracy","Config","Weights"],
+    "models":[
+        {
+            "Model": "vgg11_8xb32_in1k",
+            "Params(M)": 132.86,
+            "Flops(G)": 7.63,
+            "Inf time (fps)": 489.05,
+            "Accuracy": 68.75,
+            "Config": "mmpretrain/configs/vgg/vgg11_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/vgg/vgg11_batch256_imagenet_20210208-4271cd6c.pth"
+        },
+        {
+            "Model": "vgg13_8xb32_in1k",
+            "Params(M)": 133.05,
+            "Flops(G)": 11.34,
+            "Inf time (fps)": 407.07,
+            "Accuracy": 70.02,
+            "Config": "mmpretrain/configs/vgg/vgg13_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/vgg/vgg13_batch256_imagenet_20210208-4d1d6080.pth"
+        },
+        {
+            "Model": "vgg16_8xb32_in1k",
+            "Params(M)": 138.36,
+            "Flops(G)": 15.50,
+            "Inf time (fps)": 337.66,
+            "Accuracy": 71.62,
+            "Config": "mmpretrain/configs/vgg/vgg16_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/vgg/vgg16_batch256_imagenet_20210208-db26f1a5.pth"
+        },
+        {
+            "Model": "vgg19_8xb32_in1k",
+            "Params(M)": 143.67,
+            "Flops(G)": 19.67,
+            "Inf time (fps)": 283.1,
+            "Accuracy": 72.41,
+            "Config": "mmpretrain/configs/vgg/vgg19_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/vgg/vgg19_batch256_imagenet_20210208-e6920e4a.pth"
+        },
+        {
+            "Model": "inception-v3_3rdparty_8xb32_in1k",
+            "Params(M)": 23.83,
+            "Flops(G)": 5.75,
+            "Inf time (fps)": 93.02,
+            "Accuracy": 77.57,
+            "Config": "mmpretrain/configs/inception_v3/inception-v3_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/inception-v3/inception-v3_3rdparty_8xb32_in1k_20220615-dcd4d910.pth"
+        },
+        {
+            "Model": "resnet18_8xb32_in1k",
+            "Params(M)": 11.69,
+            "Flops(G)": 1.82,
+            "Inf time (fps)": 428.41,
+            "Accuracy": 69.90,
+            "Config": "mmpretrain/configs/resnet/resnet18_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/resnet/resnet18_8xb32_in1k_20210831-fbbb1da6.pth"
+        },
+        {
+            "Model": "resnet34_8xb32_in1k",
+            "Params(M)": 2.18,
+            "Flops(G)": 3.68,
+            "Inf time (fps)": 263.78,
+            "Accuracy": 73.62,
+            "Config": "mmpretrain/configs/resnet/resnet34_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/resnet/resnet34_8xb32_in1k_20210831-f257d4e6.pth"
+        },
+        {
+            "Model": "resnet50_8xb32_in1k",
+            "Params(M)": 25.56,
+            "Flops(G)": 4.12,
+            "Inf time (fps)": 202.54,
+            "Accuracy": 76.55,
+            "Config": "mmpretrain/configs/resnet/resnet50_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/resnet/resnet50_8xb32_in1k_20210831-ea4938fc.pth"
+        },
+        {
+            "Model": "resnet101_8xb32_in1k",
+            "Params(M)": 44.55,
+            "Flops(G)": 7.85,
+            "Inf time (fps)": 112.05,
+            "Accuracy": 77.97,
+            "Config": "mmpretrain/configs/resnet/resnet101_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/resnet/resnet101_8xb32_in1k_20210831-539c63f8.pth"
+        },
+        {
+            "Model": "resnet152_8xb32_in1k",
+            "Params(M)": 60.19,
+            "Flops(G)": 11.58,
+            "Inf time (fps)": 74.52,
+            "Accuracy": 78.48,
+            "Config": "mmpretrain/configs/resnet/resnet152_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/resnet/resnet152_8xb32_in1k_20210901-4d7582fa.pth"
+        },
+        {
+            "Model": "efficientnet-b0_3rdparty_8xb32_in1k",
+            "Params(M)": 5.29,
+            "Flops(G)": 0.42,
+            "Inf time (fps)": 113.26,
+            "Accuracy": 76.74,
+            "Config": "mmpretrain/configs/efficientnet/efficientnet-b0_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/efficientnet/efficientnet-b0_3rdparty_8xb32_in1k_20220119-a7e2a0b1.pth"
+        },
+        {
+            "Model": "efficientnet-b1_3rdparty_8xb32_in1k",
+            "Params(M)": 7.79,
+            "Flops(G)": 0.74,
+            "Inf time (fps)": 80.83,
+            "Accuracy": 78.68,
+            "Config": "mmpretrain/configs/efficientnet/efficientnet-b1_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/efficientnet/efficientnet-b1_3rdparty_8xb32_in1k_20220119-002556d9.pth"
+        },
+        {
+            "Model": "efficientnet-b2_3rdparty_8xb32_in1k",
+            "Params(M)": 9.11,
+            "Flops(G)": 1.07,
+            "Inf time (fps)": 76.2,
+            "Accuracy": 79.64,
+            "Config": "mmpretrain/configs/efficientnet/efficientnet-b2_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/efficientnet/efficientnet-b2_3rdparty_8xb32_in1k_20220119-ea374a30.pth"
+        },
+        {
+            "Model": "efficientnet-b3_3rdparty_8xb32_in1k",
+            "Params(M)": 12.23,
+            "Flops(G)": 1.95,
+            "Inf time (fps)": 70.34,
+            "Accuracy": 81.01,
+            "Config": "mmpretrain/configs/efficientnet/efficientnet-b3_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/efficientnet/efficientnet-b3_3rdparty_8xb32_in1k_20220119-4b4d7487.pth"
+        },
+        {
+            "Model": "efficientnet-b4_3rdparty_8xb32_in1k",
+            "Params(M)": 19.34,
+            "Flops(G)": 4.66,
+            "Inf time (fps)": 62.17,
+            "Accuracy": 82.57,
+            "Config": "mmpretrain/configs/efficientnet/efficientnet-b4_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/efficientnet/efficientnet-b4_3rdparty_8xb32_in1k_20220119-81fd4077.pth"
+        },
+        {
+            "Model": "efficientnet-b5_3rdparty_8xb32_in1k",
+            "Params(M)": 30.39,
+            "Flops(G)": 10.80,
+            "Inf time (fps)": 52.0,
+            "Accuracy": 83.18,
+            "Config": "mmpretrain/configs/efficientnet/efficientnet-b5_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/efficientnet/efficientnet-b5_3rdparty_8xb32_in1k_20220119-e9814430.pth"
+        },
+        {
+            "Model": "mobilenet-v3-small_8xb128_in1k",
+            "Params(M)": 2.54,
+            "Flops(G)": 0.06,
+            "Inf time (fps)": 203.22,
+            "Accuracy": 66.68,
+            "Config": "mmpretrain/configs/mobilenet_v3/mobilenet-v3-small_8xb128_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/mobilenet_v3/mobilenet-v3-small_8xb128_in1k_20221114-bd1bfcde.pth"
+        },
+        {
+            "Model": "mobilenet-v3-large_8xb128_in1k",
+            "Params(M)": 5.48,
+            "Flops(G)": 0.23,
+            "Inf time (fps)": 174.42,
+            "Accuracy": 73.49,
+            "Config": "mmpretrain/configs/mobilenet_v3/mobilenet-v3-large_8xb128_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/mobilenet_v3/mobilenet-v3-large_8xb128_in1k_20221114-0ed9ed9a.pth"
+        },
+        {
+            "Model": "mobilevit-small_3rdparty_in1k",
+            "Params(M)": 5.58,
+            "Flops(G)": 2.03,
+            "Inf time (fps)": 101.72,
+            "Accuracy": 78.25,
+            "Config": "mmpretrain/configs/mobilevit/mobilevit-small_8xb128_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/mobilevit/mobilevit-small_3rdparty_in1k_20221018-cb4f741c.pth"
+        },
+        {
+            "Model": "mobilevit-xsmall_3rdparty_in1k",
+            "Params(M)": 2.32,
+            "Flops(G)": 1.05,
+            "Inf time (fps)": 97.42,
+            "Accuracy": 74.75,
+            "Config": "mmpretrain/configs/mobilevit/mobilevit-xsmall_8xb128_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/mobilevit/mobilevit-xsmall_3rdparty_in1k_20221018-be39a6e7.pth"
+        },
+        {
+            "Model": "mobilevit-xxsmall_3rdparty_in1k",
+            "Params(M)": 1.27,
+            "Flops(G)": 0.42,
+            "Inf time (fps)": 102.24,
+            "Accuracy": 69.02,
+            "Config": "mmpretrain/configs/mobilevit/mobilevit-xxsmall_8xb128_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/mobilevit/mobilevit-xxsmall_3rdparty_in1k_20221018-77835605.pth"
+        },
+        {
+            "Model": "shufflenet-v1-1x_16xb64_in1k",
+            "Params(M)": 1.87,
+            "Flops(G)": 0.15,
+            "Inf time (fps)": 172.49,
+            "Accuracy": 68.13,
+            "Config": "mmpretrain/configs/shufflenet_v1/shufflenet-v1-1x_16xb64_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/shufflenet_v1/shufflenet_v1_batch1024_imagenet_20200804-5d6cec73.pth"
+        },
+        {
+            "Model": "shufflenet-v2-1x_16xb64_in1k",
+            "Params(M)": 2.28,
+            "Flops(G)": 0.1,
+            "Inf time (fps)": 157.0,
+            "Accuracy": 69.55,
+            "Config": "mmpretrain/configs/shufflenet_v2/shufflenet-v2-1x_16xb64_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/shufflenet_v2/shufflenet_v2_batch1024_imagenet_20200812-5bf4721e.pth"
+        },
+        {
+            "Model": "swin-tiny_16xb64_in1k",
+            "Params(M)": 28.29,
+            "Flops(G)": 4.36,
+            "Inf time (fps)": 74.19,
+            "Accuracy": 81.18,
+            "Config": "mmpretrain/configs/swin_transformer/swin-tiny_16xb64_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/swin-transformer/swin_tiny_224_b16x64_300e_imagenet_20210616_090925-66df6be6.pth"
+        },
+        {
+            "Model": "swin-small_16xb64_in1k",
+            "Params(M)": 49.61,
+            "Flops(G)": 8.52,
+            "Inf time (fps)": 37.72,
+            "Accuracy": 83.02,
+            "Config": "mmpretrain/configs/swin_transformer/swin-small_16xb64_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/swin-transformer/swin_small_224_b16x64_300e_imagenet_20210615_110219-7f9d988b.pth"
+        },
+        {
+            "Model": "swin-base_16xb64_in1k",
+            "Params(M)": 87.77,
+            "Flops(G)": 15.14,
+            "Inf time (fps)": 32.03,
+            "Accuracy": 83.36,
+            "Config": "mmpretrain/configs/swin_transformer/swin-base_16xb64_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/swin-transformer/swin_base_224_b16x64_300e_imagenet_20210616_190742-93230b0d.pth"
+        },
+        {
+            "Model": "seresnet50_8xb32_in1k",
+            "Params(M)": 28.09,
+            "Flops(G)": 4.13,
+            "Inf time (fps)": 127.95,
+            "Accuracy": 77.74,
+            "Config": "mmpretrain/configs/seresnet/seresnet50_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/se-resnet/se-resnet50_batch256_imagenet_20200804-ae206104.pth"
+        },
+        {
+            "Model": "seresnet101_8xb32_in1k",
+            "Params(M)": 49.33,
+            "Flops(G)": 7.86,
+            "Inf time (fps)": 68.29,
+            "Accuracy": 78.26,
+            "Config": "mmpretrain/configs/seresnet/seresnet101_8xb32_in1k.py",
+            "Weights":"https://download.openmmlab.com/mmclassification/v0/se-resnet/se-resnet101_batch256_imagenet_20200804-ba5b51d4.pth"
+        }
+    ]
+}

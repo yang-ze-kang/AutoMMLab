@@ -1,0 +1,293 @@
+{
+    "keys":["Model","Params(M)","Flops(G)","Inf time (fps)","mIoU","Config","Weights"],
+    "models":[
+        {
+            "Model": "fcn_r50-d8_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 47.133,
+            "Flops(G)": 1583,
+            "Inf time (fps)": 4.17,
+            "mIoU": 72.25,
+            "Config": "mmsegmentation/configs/fcn/fcn_r50-d8_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/fcn/fcn_r50-d8_512x1024_40k_cityscapes/fcn_r50-d8_512x1024_40k_cityscapes_20200604_192608-efe53f0d.pth"
+        },
+        {
+            "Model": "fcn_r101-d8_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 66.125,
+            "Flops(G)": 2205,
+            "Inf time (fps)": 2.66,
+            "mIoU": 75.45,
+            "Config": "mmsegmentation/configs/fcn/fcn_r101-d8_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": " https://download.openmmlab.com/mmsegmentation/v0.5/fcn/fcn_r101-d8_512x1024_40k_cityscapes/fcn_r101-d8_512x1024_40k_cityscapes_20200604_181852-a883d3a1.pth"
+        },
+        {
+            "Model": "fcn_r18-d8_4xb2-80k_cityscapes-512x1024",
+            "Params(M)": 12.674,
+            "Flops(G)": 444,
+            "Inf time (fps)": 14.65,
+            "mIoU": 71.11,
+            "Config": "mmsegmentation/configs/fcn/fcn_r18-d8_4xb2-80k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/fcn/fcn_r18-d8_512x1024_80k_cityscapes/fcn_r18-d8_512x1024_80k_cityscapes_20201225_021327-6c50f8b4.pth"
+        },
+        {
+            "Model": "fcn-d6_r50-d16_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 47.133,
+            "Flops(G)": 464,
+            "Inf time (fps)": 10.22,
+            "mIoU": 77.06,
+            "Config": "mmsegmentation/configs/fcn/fcn-d6_r50-d16_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/fcn/fcn_d6_r50-d16_512x1024_40k_cityscapes/fcn_d6_r50-d16_512x1024_40k_cityscapes_20210305_130133-98d5d1bc.pth"
+        },
+        {
+            "Model": "fcn-d6_r101-d16_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 66.125,
+            "Flops(G)": 620,
+            "Inf time (fps)": 8.04,
+            "mIoU": 77.36,
+            "Config": "mmsegmentation/configs/fcn/fcn-d6_r101-d16_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/fcn/fcn_d6_r101-d16_512x1024_40k_cityscapes/fcn_d6_r101-d16_512x1024_40k_cityscapes_20210305_130337-9cf2b450.pth"
+        },
+        {
+            "Model": "pspnet_r50-d8_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 46.611,
+            "Flops(G)": 1429,
+            "Inf time (fps)": 4.07,
+            "mIoU": 77.85,
+            "Config": "mmsegmentation/configs/pspnet/pspnet_r50-d8_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/pspnet/pspnet_r50-d8_512x1024_40k_cityscapes/pspnet_r50-d8_512x1024_40k_cityscapes_20200605_003338-2966598c.pth"
+        },
+        {
+            "Model": "pspnet_r101-d8_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 65.603,
+            "Flops(G)": 2051,
+            "Inf time (fps)": 2.68,
+            "mIoU": 78.34,
+            "Config": "mmsegmentation/configs/pspnet/pspnet_r101-d8_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/pspnet/pspnet_r101-d8_512x1024_40k_cityscapes/pspnet_r101-d8_512x1024_40k_cityscapes_20200604_232751-467e7cf4.pth"
+        },
+        {
+            "Model": "pspnet_r18-d8_4xb2-80k_cityscapes-512x1024",
+            "Params(M)": 12.641,
+            "Flops(G)": 434,
+            "Inf time (fps)": 15.71,
+            "mIoU": 74.87,
+            "Config": "mmsegmentation/configs/pspnet/pspnet_r18-d8_4xb2-80k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/pspnet/pspnet_r18-d8_512x1024_80k_cityscapes/pspnet_r18-d8_512x1024_80k_cityscapes_20201225_021458-09ffa746.pth"
+        },
+        {
+            "Model": "deeplabv3_r50-d8_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 65.748,
+            "Flops(G)": 2159,
+            "Inf time (fps)": 2.57,
+            "mIoU": 79.09,
+            "Config": "mmsegmentation/configs/deeplabv3/deeplabv3_r50-d8_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/deeplabv3/deeplabv3_r50-d8_512x1024_40k_cityscapes/deeplabv3_r50-d8_512x1024_40k_cityscapes_20200605_022449-acadc2f8.pth"
+        },
+        {
+            "Model": "deeplabv3_r101-d8_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 84.74,
+            "Flops(G)": 2781,
+            "Inf time (fps)": 2.04,
+            "mIoU": 77.12,
+            "Config": "mmsegmentation/configs/deeplabv3/deeplabv3_r101-d8_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/deeplabv3/deeplabv3_r101-d8_512x1024_40k_cityscapes/deeplabv3_r101-d8_512x1024_40k_cityscapes_20200605_012241-7fd3f799.pth"
+        },
+        {
+            "Model": "deeplabv3_r18-d8_4xb2-80k_cityscapes-512x1024",
+            "Params(M)": 13.838,
+            "Flops(G)": 480,
+            "Inf time (fps)": 15.51,
+            "mIoU": 76.7,
+            "Config": "mmsegmentation/configs/deeplabv3/deeplabv3_r18-d8_4xb2-80k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/deeplabv3/deeplabv3_r18-d8_512x1024_80k_cityscapes/deeplabv3_r18-d8_512x1024_80k_cityscapes_20201225_021506-23dffbe2.pth"
+        },
+        {
+            "Model": "deeplabv3plus_r50-d8_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 41.225,
+            "Flops(G)": 1413,
+            "Inf time (fps)": 3.94,
+            "mIoU": 79.61,
+            "Config": "mmsegmentation/configs/deeplabv3plus/deeplabv3plus_r50-d8_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/deeplabv3plus/deeplabv3plus_r50-d8_512x1024_40k_cityscapes/deeplabv3plus_r50-d8_512x1024_40k_cityscapes_20200605_094610-d222ffcd.pth"
+        },
+        {
+            "Model": "deeplabv3plus_r101-d8_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 60.217,
+            "Flops(G)": 2035,
+            "Inf time (fps)": 2.60,
+            "mIoU": 80.21,
+            "Config": "mmsegmentation/configs/deeplabv3plus/deeplabv3plus_r101-d8_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/deeplabv3plus/deeplabv3plus_r101-d8_512x1024_40k_cityscapes/deeplabv3plus_r101-d8_512x1024_40k_cityscapes_20200605_094614-3769eecf.pth"
+        },
+        {
+            "Model": "deeplabv3plus_r18-d8_4xb2-80k_cityscapes-512x1024",
+            "Params(M)": 12.32,
+            "Flops(G)": 434,
+            "Inf time (fps)": 14.27,
+            "mIoU": 76.89,
+            "Config": "mmsegmentation/configs/deeplabv3plus/deeplabv3plus_r18-d8_4xb2-80k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/deeplabv3plus/deeplabv3plus_r18-d8_512x1024_80k_cityscapes/deeplabv3plus_r18-d8_512x1024_80k_cityscapes_20201226_080942-cff257fe.pth"
+        },
+        {
+            "Model": "unet-s5-d16_fcn_4xb4-160k_cityscapes-512x1024",
+            "Params(M)": 28.988,
+            "Flops(G)": 1626,
+            "Inf time (fps)": 3.05,
+            "mIoU": 69.1,
+            "Config": "mmsegmentation/configs/unet/unet-s5-d16_fcn_4xb4-160k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/unet/fcn_unet_s5-d16_4x4_512x1024_160k_cityscapes/fcn_unet_s5-d16_4x4_512x1024_160k_cityscapes_20211210_145204-6860854e.pth"
+        },
+        {
+            "Model": "apcnet_r50-d8_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 53.993,
+            "Flops(G)": 1637,
+            "Inf time (fps)": 3.57,
+            "mIoU": 78.02,
+            "Config": "mmsegmentation/configs/apcnet/apcnet_r50-d8_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/apcnet/apcnet_r50-d8_512x1024_40k_cityscapes/apcnet_r50-d8_512x1024_40k_cityscapes_20201214_115717-5e88fa33.pth"
+        },
+        {
+            "Model": "apcnet_r101-d8_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 72.985,
+            "Flops(G)": 2259,
+            "Inf time (fps)": 2.15,
+            "mIoU": 79.08,
+            "Config": "mmsegmentation/configs/apcnet/apcnet_r101-d8_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/apcnet/apcnet_r101-d8_512x1024_40k_cityscapes/apcnet_r101-d8_512x1024_40k_cityscapes_20201214_115716-abc9d111.pth"
+        },
+        {
+            "Model": "bisenetv1_r18-d32-in1k-pre_4xb4-160k_cityscapes-1024x1024",
+            "Params(M)": 13.276,
+            "Flops(G)": 119,
+            "Inf time (fps)": 31.77,
+            "mIoU": 74.37,
+            "Config": "mmsegmentation/configs/bisenetv1/bisenetv1_r18-d32-in1k-pre_4xb4-160k_cityscapes-1024x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/bisenetv1/bisenetv1_r18-d32_in1k-pre_4x4_1024x1024_160k_cityscapes/bisenetv1_r18-d32_in1k-pre_4x4_1024x1024_160k_cityscapes_20210905_220251-8ba80eff.pth"
+        },
+        {
+            "Model": "bisenetv1_r50-d32-in1k-pre_4xb4-160k_cityscapes-1024x1024",
+            "Params(M)": 56.873,
+            "Flops(G)": 792,
+            "Inf time (fps)": 7.71,
+            "mIoU": 77.68,
+            "Config": "mmsegmentation/configs/bisenetv1/bisenetv1_r50-d32-in1k-pre_4xb4-160k_cityscapes-1024x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/bisenetv1/bisenetv1_r50-d32_in1k-pre_4x4_1024x1024_160k_cityscapes/bisenetv1_r50-d32_in1k-pre_4x4_1024x1024_160k_cityscapes_20210917_234628-8b304447.pth"
+        },
+        {
+            "Model": "bisenetv2_fcn_4xb4-160k_cityscapes-1024x1024",
+            "Params(M)": 3.359,
+            "Flops(G)": 98.854,
+            "Inf time (fps)": 31.77,
+            "mIoU": 73.21,
+            "Config": "mmsegmentation/configs/bisenetv2/bisenetv2_fcn_4xb4-160k_cityscapes-1024x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/bisenetv2/bisenetv2_fcn_4x4_1024x1024_160k_cityscapes/bisenetv2_fcn_4x4_1024x1024_160k_cityscapes_20210902_015551-bcf10f09.pth"
+        },
+        {
+            "Model": "fastfcn_r50-d32_jpu_aspp_4xb2-80k_cityscapes-512x1024",
+            "Params(M)": 85.484,
+            "Flops(G)": 1772,
+            "Inf time (fps)": 2.64,
+            "mIoU": 79.12,
+            "Config": "mmsegmentation/configs/fastfcn/fastfcn_r50-d32_jpu_aspp_4xb2-80k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_aspp_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_aspp_512x1024_80k_cityscapes_20210928_053722-5d1a2648.pth"
+        },
+        {
+            "Model": "fastfcn_r50-d32_jpu_psp_4xb2-80k_cityscapes-512x1024",
+            "Params(M)": 66.346,
+            "Flops(G)": 1042,
+            "Inf time (fps)": 4.40,
+            "mIoU": 79.26,
+            "Config": "mmsegmentation/configs/fastfcn/fastfcn_r50-d32_jpu_psp_4xb2-80k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_psp_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_psp_512x1024_80k_cityscapes_20210928_053722-57749bed.pth"
+        },
+        {
+            "Model": "fastfcn_r50-d32_jpu_enc_4xb2-80k_cityscapes-512x1024",
+            "Params(M)": 55.263,
+            "Flops(G)": 741,
+            "Inf time (fps)": 4.77,
+            "mIoU": 77.97,
+            "Config": "mmsegmentation/configs/fastfcn/fastfcn_r50-d32_jpu_enc_4xb2-80k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_enc_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_enc_512x1024_80k_cityscapes_20210928_030036-78da5046.pth"
+        },
+        {
+            "Model": "upernet_r50_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 64.051,
+            "Flops(G)": 1896,
+            "Inf time (fps)": 4.25,
+            "mIoU": 77.1,
+            "Config": "mmsegmentation/configs/upernet/upernet_r50_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/upernet/upernet_r50_512x1024_40k_cityscapes/upernet_r50_512x1024_40k_cityscapes_20200605_094827-aa54cb54.pth"
+        },
+        {
+            "Model": "upernet_r101_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 83.043,
+            "Flops(G)": 2052,
+            "Inf time (fps)": 3.79,
+            "mIoU": 78.69,
+            "Config": "mmsegmentation/configs/upernet/upernet_r101_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/upernet/upernet_r101_512x1024_40k_cityscapes/upernet_r101_512x1024_40k_cityscapes_20200605_094933-ebce3b10.pth"
+        },
+        {
+            "Model": "danet_r50-d8_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 47.482,
+            "Flops(G)": 2230,
+            "Inf time (fps)": 2.66,
+            "mIoU": 78.74,
+            "Config": "mmsegmentation/configs/danet/danet_r50-d8_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/danet/danet_r50-d8_512x1024_40k_cityscapes/danet_r50-d8_512x1024_40k_cityscapes_20200605_191324-c0dbfa5f.pth"
+        },
+        {
+            "Model": "danet_r101-d8_4xb2-40k_cityscapes-512x1024",
+            "Params(M)": 66.474,
+            "Flops(G)": 2852,
+            "Inf time (fps)": 1.99,
+            "mIoU": 80.52,
+            "Config": "mmsegmentation/configs/danet/danet_r101-d8_4xb2-40k_cityscapes-512x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/danet/danet_r101-d8_512x1024_40k_cityscapes/danet_r101-d8_512x1024_40k_cityscapes_20200605_200831-c57a7157.pth"
+        },
+        {
+            "Model": "segformer_mit-b0_8xb1-160k_cityscapes-1024x1024",
+            "Params(M)": 3.72,
+            "Flops(G)": 122,
+            "Inf time (fps)": 4.74,
+            "mIoU": 76.54,
+            "Config": "mmsegmentation/configs/segformer/segformer_mit-b0_8xb1-160k_cityscapes-1024x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/segformer/segformer_mit-b0_8x1_1024x1024_160k_cityscapes/segformer_mit-b0_8x1_1024x1024_160k_cityscapes_20211208_101857-e7f88502.pth"
+        },
+        {
+            "Model": "segformer_mit-b1_8xb1-160k_cityscapes-1024x1024",
+            "Params(M)": 13.683,
+            "Flops(G)": 240,
+            "Inf time (fps)": 4.3,
+            "mIoU": 78.56,
+            "Config": "mmsegmentation/configs/segformer/segformer_mit-b1_8xb1-160k_cityscapes-1024x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/segformer/segformer_mit-b1_8x1_1024x1024_160k_cityscapes/segformer_mit-b1_8x1_1024x1024_160k_cityscapes_20211208_064213-655c7b3f.pth"
+        },
+        {
+            "Model": "segformer_mit-b2_8xb1-160k_cityscapes-1024x1024",
+            "Params(M)": 24.728,
+            "Flops(G)": 421,
+            "Inf time (fps)": 3.36,
+            "mIoU": 81.08,
+            "Config": "mmsegmentation/configs/segformer/segformer_mit-b2_8xb1-160k_cityscapes-1024x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/segformer/segformer_mit-b2_8x1_1024x1024_160k_cityscapes/segformer_mit-b2_8x1_1024x1024_160k_cityscapes_20211207_134205-6096669a.pth"
+        },
+        {
+            "Model": "segformer_mit-b3_8xb1-160k_cityscapes-1024x1024",
+            "Params(M)": 44.604,
+            "Flops(G)": 667,
+            "Inf time (fps)": 2.53,
+            "mIoU": 81.94,
+            "Config": "mmsegmentation/configs/segformer/segformer_mit-b3_8xb1-160k_cityscapes-1024x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/segformer/segformer_mit-b3_8x1_1024x1024_160k_cityscapes/segformer_mit-b3_8x1_1024x1024_160k_cityscapes_20211206_224823-a8f8a177.pth"
+        },
+        {
+            "Model": "segformer_mit-b4_8xb1-160k_cityscapes-1024x1024",
+            "Params(M)": 61.374,
+            "Flops(G)": 945,
+            "Inf time (fps)": 1.88,
+            "mIoU": 81.89,
+            "Config": "mmsegmentation/configs/segformer/segformer_mit-b4_8xb1-160k_cityscapes-1024x1024.py",
+            "Weights": "https://download.openmmlab.com/mmsegmentation/v0.5/segformer/segformer_mit-b4_8x1_1024x1024_160k_cityscapes/segformer_mit-b4_8x1_1024x1024_160k_cityscapes_20211207_080709-07f6c333.pth"
+        }
+    ]
+}

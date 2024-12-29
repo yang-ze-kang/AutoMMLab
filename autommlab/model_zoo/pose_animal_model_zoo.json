@@ -1,0 +1,41 @@
+{
+    "keys":["Model","Params(M)","Flops(G)","Inf time (fps)","AP","Config","Weights"],
+    "models":[
+        {
+            "Model": "td-hm_hrnet-w32_8xb64-210e_ap10k-256x256",
+            "Params(M)": 28.536,
+            "Flops(G)": 7.685,
+            "Inf time (fps)": 17.11,
+            "AP": 0.722,
+            "Config": "mmpose/configs/animal_2d_keypoint/topdown_heatmap/ap10k/td-hm_hrnet-w32_8xb64-210e_ap10k-256x256.py",
+            "Weights": "https://download.openmmlab.com/mmpose/animal/hrnet/hrnet_w32_ap10k_256x256-18aac840_20211029.pth"
+        },
+        {
+            "Model": "td-hm_hrnet-w48_8xb64-210e_ap10k-256x256",
+            "Params(M)": 63.596,
+            "Flops(G)": 15.746,
+            "Inf time (fps)": 15.96,
+            "AP": 0.728,
+            "Config": "mmpose/configs/animal_2d_keypoint/topdown_heatmap/ap10k/td-hm_hrnet-w48_8xb64-210e_ap10k-256x256.py",
+            "Weights": "https://download.openmmlab.com/mmpose/animal/hrnet/hrnet_w48_ap10k_256x256-d95ab412_20211029.pth"
+        },
+        {
+            "Model": "td-hm_res50_8xb64-210e_ap10k-256x256",
+            "Params(M)": 34,
+            "Flops(G)": 5.45,
+            "Inf time (fps)": 96.28,
+            "AP": 0.680,
+            "Config": "mmpose/configs/animal_2d_keypoint/topdown_heatmap/ap10k/td-hm_res50_8xb64-210e_ap10k-256x256.py",
+            "Weights": "https://download.openmmlab.com/mmpose/animal/resnet/res50_ap10k_256x256-35760eb8_20211029.pth"
+        },
+        {
+            "Model": "td-hm_res101_8xb64-210e_ap10k-256x256",
+            "Params(M)": 52.992,
+            "Flops(G)": 9.097,
+            "Inf time (fps)": 44.44,
+            "AP": 0.681,
+            "Config": "mmpose/configs/animal_2d_keypoint/topdown_heatmap/ap10k/td-hm_res101_8xb64-210e_ap10k-256x256.py",
+            "Weights": "https://download.openmmlab.com/mmpose/animal/resnet/res101_ap10k_256x256-9edfafb9_20211029.pth"
+        }
+    ]
+}

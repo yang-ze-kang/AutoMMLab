@@ -1,0 +1,15 @@
+__pycache__
+logs
+results
+weights
+step1_parsing.py
+step2_parse2bag.py
+step3_bag2hp.py
+step4_train.py
+step5_deploy.py
+LAMP/data
+autommlab/dataset/annos/cityscapes
+autommlab/dataset/annos/coco
+autommlab/dataset/annos/lvis
+autommlab/dataset/annos/object365
+mmdeploy

@@ -1,0 +1,28 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.0.0+cu118
+torchvision==0.15.1
+transformers==4.37.2
+Flask==3.1.0
+peft==0.5.0
+sentencepiece==0.1.99
+openai==1.13.3
+gradio==3.42.0
+gradio_client==0.5.0
+nltk==3.8.1
+pycocotools==2.0.7
+thefuzz==0.20.0
+thop==0.1.1.post2209072238
+prettytable==3.8.0
+yapf==0.40.1
+tensorboard==2.14.0
+tensorboard-data-server==0.7.1
+tensorboardX==2.6.2.2
+mmengine==0.8.4
+mmcv-lite==2.0.1
+boto3==1.26.118
+botocore==1.29.165
+-e ./mmpretrain
+-e ./mmdetection
+-e ./mmsegmentation
+-e ./mmpose
+-e ./mmdeploy
