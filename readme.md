@@ -1,4 +1,4 @@
-# AutoMMLab
+# AutoMMLab (AAAI2025)
 <p align="center">
   <img src='docs/lamp.png' width=150>
 </p>
